@@ -1,0 +1,22 @@
+source https://api.nuget.org/v3/index.json
+
+storage: none
+framework: netcore3.1, netstandard2.1
+
+nuget FSharp.Core
+nuget FParsec
+nuget Saturn
+
+group Client
+    source https://api.nuget.org/v3/index.json
+    storage: none
+    framework: netstandard2.1
+
+    nuget Fable.Core
+    nuget Fable.Elmish
+    nuget Thoth.Fetch
+    nuget Fable.Elmish.Debugger
+    nuget Fable.Elmish.React
+    nuget Fable.Elmish.HMR
+    nuget Fulma	
+    nuget Fable.FontAwesome.Free

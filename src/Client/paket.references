@@ -1,0 +1,6 @@
+group Client
+	Fable.Core
+	Thoth.Fetch
+	Fable.Elmish
+	Fable.Elmish.React
+	Fulma
